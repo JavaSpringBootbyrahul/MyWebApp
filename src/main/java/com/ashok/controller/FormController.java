@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
+@RequestMapping("/my-web-app")
 public class FormController {
 	
 	@GetMapping("/")
